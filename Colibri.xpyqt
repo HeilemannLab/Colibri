@@ -1,0 +1,30 @@
+<!--
+###########################################################################################
+##      Created using Monkey Studio IDE v1.9.0.4 (1.9.0.4)
+##
+##  Author    : Sebastian Malkusch <malkusch@chemie.uni-frankfurt.de>
+##  Project   : Colibri
+##  FileName  : Colibri.xpythonqt
+##  Date      : 2016-07-12T09:11:50
+##  License   : GPL3
+##  Comment   : Creating using Monkey Studio RAD
+##  Home Page : http://user.uni-frankfurt.de/~malkusch/
+##
+##  This file is provided AS IS with NO WARRANTY OF ANY KIND, INCLUDING THE
+##  WARRANTY OF DESIGN, MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+##
+###########################################################################################
+-->
+<!DOCTYPE XUPProject>
+<project name="Colibri" version="1.1.0" >
+    <variable name="XUP.MAIN_FILE">
+        <value>colibri.py</value>
+    </variable>
+    <variable name="FORMS">
+        <file>mainwindow.ui</file>
+    </variable>
+    <variable name="PYTHON_FILES" >
+        <file>colibri.py</file>
+        <file>mainwindow.py</file>
+    </variable>
+</project>
