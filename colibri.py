@@ -30,7 +30,7 @@ from PyQt4.QtGui import *
 
 from mainwindow import MainWindow
 ver = 1607
-print ('\nSingle Molecule Biophysics\nUniversity of Frankfurt\nloading the colibri...\n')
+print('\nSingle Molecule Biophysics\nUniversity of Frankfurt\nloading the colibri...\n')
 if __name__ == '__main__':
 
     # create application
