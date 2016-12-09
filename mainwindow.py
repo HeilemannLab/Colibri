@@ -45,8 +45,10 @@ class MainWindow ( QMainWindow ):
         self.ui.setupUi( self )
         #initialize settings
         self.settings=[clib.Settings(0), clib.Settings(1), clib.Settings(2), clib.Settings(3)]
+        #self.offset = [120, 830]
+        self.offset = [325, 540]
         # initialize Galvo Control
-        self.galvoControl = gc.GalvoDriver(self.settings[0])
+        self.galvoControl = gc.GalvoDriver(self.settings[0], self.offset)
         # GUI types
         self.frequencySB=guic.SliderBox(0.0, 500.0, 1)
         self.radiusSB=guic.SliderBox(0.0, 0.6, 0.001)
@@ -56,6 +58,7 @@ class MainWindow ( QMainWindow ):
         self.yShiftSB=guic.SliderBox(-1000.0, 1000.0, 1)
         self.bfp=guic.BFP()
         self.refreshGui()
+        
         
         
         # Change sliders
